@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+#container{
+			height:100vh;
+			width:100vw;
+			margin:0;
+			padding:0;
+			background-color:beige;
+			display:flex;
+			justify-content:center;
+	        font-family:Arial,sans-serif;
+			
+			
+		}
+		#subContainer{
+			height:100%;
+			width:60%;
+			box-shadow:10px 10px 60px gray;
+			overflow:scroll auto;
+			
+		}
+
+     #band{
+		 width:400px;
+		 margin:20px auto;
+		 padding-left:25px;
+		 list-style-type:square;
+	 }
+    #band li{
+		background-color:white;
+		padding:17px;
+		margin:2px;
+		box-shadow:0px 2px 2px gray;
+		
+		
+	}
